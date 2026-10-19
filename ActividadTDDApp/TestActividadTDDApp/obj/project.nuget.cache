@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YBARgFDv5E4=",
+  "dgSpecHash": "G+PCs6Iua4A=",
   "success": true,
-  "projectFilePath": "C:\\Users\\sersanmor\\Desktop\\Git\\ActividadTDDApp\\TestActividadTDDApp\\TestActividadTDDApp.csproj",
+  "projectFilePath": "C:\\Users\\sersanmor\\Desktop\\Git\\SSMN2526-PF02.-Actividad-1-TDD-y-C-\\ActividadTDDApp\\TestActividadTDDApp\\TestActividadTDDApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sersanmor\\.nuget\\packages\\microsoft.applicationinsights\\2.23.0\\microsoft.applicationinsights.2.23.0.nupkg.sha512",
     "C:\\Users\\sersanmor\\.nuget\\packages\\microsoft.codecoverage\\18.0.1\\microsoft.codecoverage.18.0.1.nupkg.sha512",

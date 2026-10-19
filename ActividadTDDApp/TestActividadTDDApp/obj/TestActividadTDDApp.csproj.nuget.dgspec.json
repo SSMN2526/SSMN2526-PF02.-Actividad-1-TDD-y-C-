@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sersanmor\\Desktop\\Git\\ActividadTDDApp\\TestActividadTDDApp\\TestActividadTDDApp.csproj": {}
+    "C:\\Users\\sersanmor\\Desktop\\Git\\SSMN2526-PF02.-Actividad-1-TDD-y-C-\\ActividadTDDApp\\TestActividadTDDApp\\TestActividadTDDApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sersanmor\\Desktop\\Git\\ActividadTDDApp\\TestActividadTDDApp\\TestActividadTDDApp.csproj": {
+    "C:\\Users\\sersanmor\\Desktop\\Git\\SSMN2526-PF02.-Actividad-1-TDD-y-C-\\ActividadTDDApp\\TestActividadTDDApp\\TestActividadTDDApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sersanmor\\Desktop\\Git\\ActividadTDDApp\\TestActividadTDDApp\\TestActividadTDDApp.csproj",
+        "projectUniqueName": "C:\\Users\\sersanmor\\Desktop\\Git\\SSMN2526-PF02.-Actividad-1-TDD-y-C-\\ActividadTDDApp\\TestActividadTDDApp\\TestActividadTDDApp.csproj",
         "projectName": "TestActividadTDDApp",
-        "projectPath": "C:\\Users\\sersanmor\\Desktop\\Git\\ActividadTDDApp\\TestActividadTDDApp\\TestActividadTDDApp.csproj",
+        "projectPath": "C:\\Users\\sersanmor\\Desktop\\Git\\SSMN2526-PF02.-Actividad-1-TDD-y-C-\\ActividadTDDApp\\TestActividadTDDApp\\TestActividadTDDApp.csproj",
         "packagesPath": "C:\\Users\\sersanmor\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sersanmor\\Desktop\\Git\\ActividadTDDApp\\TestActividadTDDApp\\obj\\",
+        "outputPath": "C:\\Users\\sersanmor\\Desktop\\Git\\SSMN2526-PF02.-Actividad-1-TDD-y-C-\\ActividadTDDApp\\TestActividadTDDApp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
