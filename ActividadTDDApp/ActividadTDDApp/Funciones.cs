@@ -18,5 +18,17 @@ namespace ActividadTDDApp
             }
             return resultado;
         }
+        public static bool EsContrasenyaValida(string contrasenya)
+        {
+            if (string.IsNullOrEmpty(contrasenya))
+            {
+                return false;
+            }
+            if (contrasenya.Length < 8)
+            {
+                return false;
+            }
+            return contrasenya.Contains('#');
+        }
     }
 }
