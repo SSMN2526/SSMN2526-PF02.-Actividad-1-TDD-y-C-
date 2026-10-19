@@ -23,5 +23,30 @@ namespace TestActividadTDDApp
             int reulstado = Funciones.CalcularFactorial(5);
             Assert.AreEqual(120, reulstado);
         }
+        [TestMethod]
+        public void ContrasenyaNull()
+        {
+            bool resultado = Funciones.EsContrasenyaValida(null);
+            Assert.IsFalse(resultado);
+        }
+        [TestMethod]
+        public void ContrasenyaVacia()
+        {
+            bool resultado = Funciones.EsContrasenyaValida("");
+            Assert.IsFalse(resultado);
+        }
+        [TestMethod]
+        public void ContrasenyaCorta()
+        {
+            bool resultado = Funciones.EsContrasenyaValida("qwe#");
+            Assert.IsFalse(resultado);
+        }
+        [TestMethod]
+        public void ContrasenyaValida()
+        {
+            bool resultado = Funciones.EsContrasenyaValida("Contraseña#");
+            Assert.IsTrue(resultado);
+        }
+
     }
 }
