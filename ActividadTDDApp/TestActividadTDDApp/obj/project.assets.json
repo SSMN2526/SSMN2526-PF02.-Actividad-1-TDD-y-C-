@@ -1074,6 +1074,16 @@
             "related": ".xml"
           }
         }
+      },
+      "ActividadTDDApp/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v10.0",
+        "compile": {
+          "bin/placeholder/ActividadTDDApp.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ActividadTDDApp.dll": {}
+        }
       }
     }
   },
@@ -2267,31 +2277,37 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
+    },
+    "ActividadTDDApp/1.0.0": {
+      "type": "project",
+      "path": "../ActividadTDDApp/ActividadTDDApp.csproj",
+      "msbuildProject": "../ActividadTDDApp/ActividadTDDApp.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "ActividadTDDApp >= 1.0.0",
       "MSTest >= 4.0.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\sersanmor\\.nuget\\packages\\": {},
+    "C:\\Users\\rebbaebus\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sersanmor\\Desktop\\Git\\SSMN2526-PF02.-Actividad-1-TDD-y-C-\\ActividadTDDApp\\TestActividadTDDApp\\TestActividadTDDApp.csproj",
+      "projectUniqueName": "C:\\Users\\rebbaebus\\Desktop\\SSMN2526-PF02.-Actividad-1-TDD-y-C-\\ActividadTDDApp\\TestActividadTDDApp\\TestActividadTDDApp.csproj",
       "projectName": "TestActividadTDDApp",
-      "projectPath": "C:\\Users\\sersanmor\\Desktop\\Git\\SSMN2526-PF02.-Actividad-1-TDD-y-C-\\ActividadTDDApp\\TestActividadTDDApp\\TestActividadTDDApp.csproj",
-      "packagesPath": "C:\\Users\\sersanmor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sersanmor\\Desktop\\Git\\SSMN2526-PF02.-Actividad-1-TDD-y-C-\\ActividadTDDApp\\TestActividadTDDApp\\obj\\",
+      "projectPath": "C:\\Users\\rebbaebus\\Desktop\\SSMN2526-PF02.-Actividad-1-TDD-y-C-\\ActividadTDDApp\\TestActividadTDDApp\\TestActividadTDDApp.csproj",
+      "packagesPath": "C:\\Users\\rebbaebus\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rebbaebus\\Desktop\\SSMN2526-PF02.-Actividad-1-TDD-y-C-\\ActividadTDDApp\\TestActividadTDDApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\sersanmor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rebbaebus\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2306,7 +2322,11 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\rebbaebus\\Desktop\\SSMN2526-PF02.-Actividad-1-TDD-y-C-\\ActividadTDDApp\\ActividadTDDApp\\ActividadTDDApp.csproj": {
+              "projectPath": "C:\\Users\\rebbaebus\\Desktop\\SSMN2526-PF02.-Actividad-1-TDD-y-C-\\ActividadTDDApp\\ActividadTDDApp\\ActividadTDDApp.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
